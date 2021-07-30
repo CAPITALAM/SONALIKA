@@ -3,6 +3,9 @@ a:hover, a:visited, a:link, a:active
     text-decoration: none;
 }
 
+#arium{
+  margin-top: 13px;
+}
 
 
 .viewPort{
