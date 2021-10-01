@@ -66,7 +66,6 @@ a:hover, a:visited, a:link, a:active
 
 .header {
 
-  padding: 5px;
 	display: flex;
   flex-wrap: wrap;
 
@@ -79,23 +78,21 @@ a:hover, a:visited, a:link, a:active
 
 .menuWrap {
   display: flex;
-
+  
   align-items: center;
-  margin-right: 15px;
+  margin-right: 20px;
 
 
 }
 
 .menuWrap a {
   /*margin: auto;*/ /* To vertically center the menu links, this can be used as an alternative to align-items: center in .menuWrap */
-  padding: 0 10px;
-
   font-size: 2.25em;
+  padding-left: 12px;
 
 }
 .fa {
-  padding: 20px;
-  text-align: center;
+
   text-decoration: none;
 }
 
@@ -103,7 +100,7 @@ a:hover, a:visited, a:link, a:active
 
 .logoWrap img {
   border-radius: 4px;
-  padding: 10px;
+  padding: 8px;
   margin-left: 10px;
   width: 6.25em;
 }
@@ -223,17 +220,17 @@ a:hover, a:visited, a:link, a:active
 
   .logoWrap img {
     border-radius: 4px;
-    padding: 10px;
- 
+    padding: 8px;
+    padding-top: 14px;
     width: 11.00em;
   }
 
   
   .menuWrap a {
     /*margin: auto;*/ /* To vertically center the menu links, this can be used as an alternative to align-items: center in .menuWrap */
-    padding: 0 .200em;
-  
+
     font-size: 5.55em;
+    margin-right: 10px;
   
 
   }
